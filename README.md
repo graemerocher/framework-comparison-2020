@@ -19,3 +19,21 @@ node time.js PATH_TO_JAR
 ```
 
 The results can be found in the report PDF.
+
+### Q & A
+
+*How was memory measured?*
+
+Using the `ps` command on OS X to obtain the RSS memory:
+
+```
+ps x -o rss,vsz,command | grep java
+```
+
+*How was req/sec measured?*
+
+Using `ab` with keep alive connections:
+
+```
+ab -k -c 20 -n 10000 http://localhost:8080/hello
+```
