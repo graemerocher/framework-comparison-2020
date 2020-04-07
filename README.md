@@ -1,6 +1,8 @@
 # Micronaut 2.0 M2 vs Quarkus 1.3.1 vs Spring Boot 2.3 M2 on JDK 14
 
-This repo contains a performance comparison between Micronaut 2.0 M2 vs Quarkus 1.3.1 vs Spring Boot 2.3 M2 on JDK 14.
+This repo contains a performance comparison between Micronaut 2.0 M2 vs Quarkus 1.3.1 vs Spring Boot 2.3 M2 on JDK 14. 
+
+Associated YouTube video: https://www.youtube.com/watch?v=rJFgdFIs_k8&feature=youtu.be
 
 ### Setup
 
